@@ -1,0 +1,27 @@
+name: lipify
+description: A lip reading application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.5.8+1
+  cupertino_icons: ^0.1.3
+  flutter_spinkit: ^4.1.2+1
+  http: ^0.12.1
+  path_provider: ^1.6.8
+  video_player: ^0.10.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
